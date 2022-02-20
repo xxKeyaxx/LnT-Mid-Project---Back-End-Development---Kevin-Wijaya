@@ -4,10 +4,9 @@
 
 @section('content')
     <div class="container mt-4">
-        <h2 class="header"><i class="uil uil-edit-alt"></i>Edit Book</h2>
+        <h2 class="header"><i class="uil uil-edit-alt me-2"></i>Edit Book</h2>
         <hr>
         <div class="col-md-7 bg-light manage-wrapper">
-            <!-- <a href="{{ url('books/add') }}" class="btn btn-dark btn-sm mb-2"><i class="uil uil-plus me-1"></i>Add Books</a> -->
             <form action="{{ url('books/' . $book->id) }}" method="POST">
                 @csrf
                 @method('PUT')
