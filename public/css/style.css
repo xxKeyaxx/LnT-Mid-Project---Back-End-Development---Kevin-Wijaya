@@ -1,0 +1,44 @@
+.banner {
+    background: black;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.banner>h1 {
+    font-size: 40px;
+}
+
+.banner>p {
+    font-size: 25px;
+}
+
+.book-content {
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.book-content>h1 {
+    font-size: 23px;
+    font-weight: bold;
+}
+.book-content>.writer {
+    font-size: 16px;
+    font-weight: 450;
+}
+.book-content>.number-of-pages {
+    font-size: 14px;
+}
+.book-content>.year-published {
+    font-size: 14px;
+}
+
+.manage-wrapper {
+    padding: 13px;
+    border-radius: 10px;
+}
+.header {
+    font-weight: 700;
+}
